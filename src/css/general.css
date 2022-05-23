@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+h1 {
+    color: black;
+    font-style: italic;
+    text-align: center;
+    width: 100%;
+}
+h2 {
+    color: #717171;
+    background-color: #009846;
+    max-width: 400px;
+}
+p {
+    font: normal 100%/1.5 Helvetica, Arial, Sans-serif;
+    color: #313131;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.recipeSwitchMenu {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.recipeSwitchMenuNext {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.recipeSwitchMenuBack {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.imagesDemo img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+}
